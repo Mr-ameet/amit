@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required />
+      </div>
+      <br />
+      <div>
+        <label>Password:</label>
+        <input type="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" />
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" />
+        <label>Female</label>
+      </div>
+      <br />
+      <div>
+        <label>Country: </label>
+        <select name="country">
+          <option>Select an option</option>
+          <option value="nepal" selected>Nepal</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Message:</label><br />
+        <textarea name="message" cols="30" rows="4"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="newsletter" />
+        <label>Do you want to subscribe to our newsletter?</label>
+      </div>
+      <br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
